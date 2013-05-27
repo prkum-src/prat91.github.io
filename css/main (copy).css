@@ -39,24 +39,6 @@ table {
 /* Home
 /*
 /*****************************************************************************/
-
-.home h1{
-  color:#003366;
-  font: 27.34px Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-}
-.home h2{
-  color:#003366;
-  font: 22.34px Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-}
-.home h2 a{
-  color:#003366;
-  text-decoration:none;  
-}
-.home h2 a:hover{
-  color:#3399FF;
-}
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -66,48 +48,11 @@ ul.posts li {
   line-height: 1.75em;
 }
 
-ul.posts li a{
- color:#000;
- text-decoration:none;
-}
-
-ul.posts li a:hover{
- color:#3399FF;
- text-decoration:underline;
-}
-
-ul.posts li div{
- display:inline;
- margin: 3em 1em 1em 2em;
-}
-
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 100%;
+  font-size: 80%;
 }
-
-ul.summary {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.summary li {
-  line-height: 1.75em;
-}
-
-ul.summary li div.title a{
- color:#000;
- font: 27.34px Helvetica, Arial, sans-serif;
- text-decoration:none;
- font-weight: bolder;
-}
-
-ul.summary li div.title a:hover{
- color:#003366;
- text-decoration:underline;
-}
-
 
 /*****************************************************************************/
 /*
@@ -115,45 +60,13 @@ ul.summary li div.title a:hover{
 /*
 /*****************************************************************************/
 
-.sidebar{ 
-  float:left;
-  width: 15em;
-  margin: 0em 0em 0em 0em;
-  height:100%;
-  position:fixed;  
-  color: #3399FF;
-  background-color:#003366;
-  font: 17.34px Helvetica, Arial, sans-serif; 
-}
-.sidebar h4{
- color:#99CCFF;
- font: 27.34px Helvetica, Arial, sans-serif;
- font-weight: bolder;
-}
-.sidebar h3{
- color:#3399FF;
- font: 17.34px Helvetica, Arial, sans-serif;
-}
-.sidebar h2{
- color:#99CCFF;
- font: 15.34px Helvetica, Arial, sans-serif;
- display:inline;
-}
-.sidebar h2 a{
- color:#99CCFF;
- text-decoration:none;
-}
-.sidebar h2 a:hover {
-  color: #3399FF;
-}
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 60em;
-  margin: 3em 5em 1em 2em;
+  width: 62em;
+  margin: 3em auto 2em;
   line-height: 1.5em;
   float:right;
-  
 }
 
 .site .header a {
@@ -241,12 +154,11 @@ ul.summary li div.title a:hover{
   border: none;
 }
 
-
 /* terminal */
 #post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
-  color: #fff;
+  color: #FFF;
 }
 
 #post pre.terminal code {

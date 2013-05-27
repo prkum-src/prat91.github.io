@@ -26,6 +26,10 @@
 	  <h2><a href = "{{ site.url }}/archives.html">Archives</a></h2>
           <h2>|</h2>
 	  <h2>About</h2>
+          <form class="form-search">
+  <input type="text" class="input-medium search-query">
+  <button type="submit" class="btn">Search</button>
+</form>
         </div>
         <div class="container">
           
